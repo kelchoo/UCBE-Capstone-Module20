@@ -2,7 +2,10 @@
 Capstone Project MOdule 20
 ### Capstone Project 20.1: Initial Report and Exploratory Data Analysis (EDA)
 
-Project Title: Building an App Store Intelligence Through Machine Learning for maximizing revenue, lower cost and reduce customer churn (Shopify Business Model)
+## Project Title: Building an Machine Learning solution on Shopify's App Store in the aim of maximizing revenue, lower cost and reduce customer churn (stimulate and accelerate the Shopify Business Model)
+
+ <img width="672" alt="image" src="https://user-images.githubusercontent.com/115063137/218932224-d15802db-aae9-4dde-8448-6e6437e8e41c.png">
+
 
 Overview: In this module, I perfrom the actual ‘number crunching’ for your capstone project. I spent the time in creating and training models, as well as creating visualizations to make sense of your findings.
 
@@ -35,21 +38,41 @@ Data includes:  App Counts, App Store review, pricing hints, descriptions, revie
 
 ## Rationale
 Why should anyone care about this question?
+1. Its important to address the question of who and what app/product is my main revenue driver. For any business that intends to thrive in the era of competition, keep its current customers, in Shopify's case- keeping its app developers and merchants on its site is key to ensuring the sales revenue growth and sustainability.
+2. Understanding the risk areas of the business is critical in helping the business of merchant and app hosting in Shopify's case in reducing churn to its competitors but also to eliminate risks from fraud and customer dissatisfaction as you will notice from feedback provided through the app business (especially in the reviews of the apps downloaded and the developer feedback).
+3. Both of the above factors help ensure that the app store continue to provide the tools to help its merchants succeed and build a solid ecosystem for both sellers and buyers to thrive in and help Shopify succeed in online ecommerce. Note, that this business model is acutely similar to that of any app store worldwide that needs both great content and creators of content to co-exist and provide useful inputs for both demand and supply to continue to co-exist in any online marketplace.
 
 
 ## Research Question
 how do I get a recommendation of the top apps which I should focus my marketing expenses when using the monthly reports provided (as shown in the data source as extracted from Shopify’s website in the link provided below) based on the various features and attributes of each app currently available on my store at the start of a given month (assuming the files have been provided in the point below from Shopify’s internal database to the marketing team) so I can maximize revenues for each month ? 
+#### question 1: who is my top monthly app and developer in terms of reviews submitted and downloads (user counts) ?
+#### question 1.1 : With the above information, how does Shopify or any online app store host build a strong relationshop and help promote the developer and apps to help it grow its revenue and market share?
 
 ## Data Sources
 What data will you use to answer you question?
+Expected data source(s) : https://www.kaggle.com/datasets/usernam3/shopify-app-store?select=reviews.csv
 
-
+### apps.csv
+### apps_categories.csv
+### categories.csv
+### key_benefits.csv
+### pricing_plan_features.csv
+### reviews.csv
 
 
 ## Methodology
 What methods are you using to answer the question?
+Applying the methods CRISP-DM
+<img width="676" alt="image" src="https://user-images.githubusercontent.com/115063137/218926683-f2e4e4ad-c4a0-4a8b-ae88-b47d8a873e59.png">
+####  Business understanding – What does the business need?
+#### Data understanding – What data do we have / need? Is it clean?
+#### Data preparation – How do we organize the data for modeling?
+#### Modeling – What modeling techniques should we apply?
+#### Evaluation – Which model best meets the business objectives?
+#### Deployment – How do stakeholders access the results?
 
-### Step 1: Understanding the Data
+
+### Step 1: Understanding the Data (Business Understanding)
 
 To gain a better understanding of the data:
 · Libraries are imported and aliased correctly
@@ -75,7 +98,7 @@ Creating joins and merge data to create meaningful linkage between apps, reviews
 
 <img width="1374" alt="image" src="https://user-images.githubusercontent.com/115063137/218888481-4220c4d1-d1a1-480f-9d87-e47167495c8e.png">
 
-### Step 3 Build Visuallizations to answer the following questions: 
+### Step 3 Data preparation by building Visuallizations to answer the following questions: 
 - how do I identify as an executive managing an app store, what are my top performing categories of apps in terms of reviews (total), positive ratings, create a summary scoring system to identify my top category of apps.
 - identify possible revenue potential from these top reviews/purchases 
 - recognize and point out clear risks to revenue
@@ -91,7 +114,12 @@ Here the top app reviews give us a preview of the potential apps that we need to
 <img width="2037" alt="image" src="https://user-images.githubusercontent.com/115063137/218889795-6f2ca81e-cd40-4e94-b223-2823c4457a3c.png">
 The top categories as shown here above confirm the pricing structure that works best for app.
 
-### Step 4 Understanding the Features
+### Step 4 Understanding the Features (data preparation  and understanding)
+
+#### Using the chart below, Shopify should do the following to improve its sales and app store engagement with its developers and merchants:
+#### 1. for the top rated apps, bring them to the main home page for the app store at Shopify's web site, this encourages them to develop more improvements on their apps and bring more returned customers to Shopify as merchants with these top toolsets using the apps to market, design their stores etc.
+#### 2. for the low performing apps in the low 3s ratings, Shopify should bring them in house to collaborate on development and use case workshops to work with its merchants to improve their app experience and provide better customer support and insight to their app development process.
+Over time, such behaviors of the developers, app users and Shopify teams help solidify the app store ecosystem much like Andriod and iOS app stores.
 
 <img width="1584" alt="image" src="https://user-images.githubusercontent.com/115063137/218898115-b1592de7-cc51-44a8-9047-9569093c2372.png">
 
@@ -102,7 +130,7 @@ The top categories as shown here above confirm the pricing structure that works 
 <img width="1351" alt="image" src="https://user-images.githubusercontent.com/115063137/218898396-d4a0c0f3-1f65-43a5-bea5-86f9ebd83675.png">
 Correlation helps build the confidence and understanding that the user rating for using the app is a great feedback loop for the developer and for Spotify to feel te pulse of the merchant using its app and provides good understanding through the words used in the review which we will cover next in our models and clustering techniques used.
 
-### Step 5: Understand the task and modeling
+### Step 5: Understand the task and modeling (Modeling and Evaluation)
 Business Objective of the task:
 
 - find a model that can explain success of the product/app.
@@ -117,26 +145,26 @@ Such model can increase campaign efficiency by :
 
 -- and affordable set of potential buying customers.
 
-we use a combination of KMeans clustering and PCA as well as TSNE to breakdown the relationshp further between what the developer sees as features driving the ratings and reviews of the app developed for Shopify's merchants.
+#### we use a combination of KMeans clustering (and PCA as well as TSNE to breakdown the relationshp further between what the developer sees as features driving the ratings and reviews of the app developed for Shopify's merchants.
 
-Continuing to clean the data and scrub for redundant columns after merging continues to be important as we drive towards the solution
+#### Continuing to clean the data and scrub for redundant columns after merging continues to be important as we drive towards the solution
 <img width="1578" alt="image" src="https://user-images.githubusercontent.com/115063137/218898914-799e3c70-cdb0-4fa5-9281-f4d3154253fb.png">
 
-Using NLP techniques, Shopify executives can really understand how the words used in reviews can be "nuggets" for building customer loyalty and branding knowledge for the apps that are popular and the ones that are not can really get the feedback needed to understand what is causing poor take rate and downloads by merchants:
+#### Compute chi-squared stats between each non-negative feature and class.
+
+#### This score can be used to select the n_features features with the highest values for the test chi-squared statistic from X, which must contain only non-negative features such as booleans or frequencies (e.g., term counts in document classification), relative to the classes.¶
+
+#### chi-square test measures dependence between stochastic variables, so using this function “weeds out” the features that are the most likely to be independent of class and therefore irrelevant for classification.
+
+#### In module 24, I will be adding on the Elbow Method for optimal value of k in KMeans
+#### This will provide a more detailed review of the optimal value to use for k means clustering to more purposefully present the details of kmeans clustering of the reviews and ratings
+
+#### Using NLP techniques, Shopify executives can really understand how the words used in reviews can be "nuggets" for building customer loyalty and branding knowledge for the apps that are popular and the ones that are not can really get the feedback needed to understand what is causing poor take rate and downloads by merchants:
 
 <img width="1577" alt="image" src="https://user-images.githubusercontent.com/115063137/218899162-479f1a0b-7e14-44f4-a357-efc79fb27148.png">
 
 
-#### Results
-
-•Expected data source(s) : https://www.kaggle.com/datasets/usernam3/shopify-app-store?select=reviews.csv
-
-apps.csv
-apps_categories.csv
-categories.csv
-key_benefits.csv
-pricing_plan_features.csv
-reviews.csv
+#### 6. Results (Deployment)
 
 With Vectorization, chi square and SentimentAnalyzer text search tools we can truly magnify the category of apps and the respective grouping of words that point out the risks to growth of the app store.
 <img width="1462" alt="image" src="https://user-images.githubusercontent.com/115063137/218899617-ed57d52e-1754-49b3-b8be-6507eb154d4b.png">
@@ -150,10 +178,25 @@ With Vectorization, chi square and SentimentAnalyzer text search tools we can tr
 
 ## Conclusion
 With the top apps and developers identified to drive the potential revenues and stickiness of the ego systems of apps, the company can now repeat this process at the end of each month to do the following:
-1. maxmize the revenue of looking at promoting the app on the above list more during the month ahead
-2. focus more on the risk area in terms of investing on reducing fraud
-3. improving Shopify's own apps based on the ratings and feedback provided through the repeated process above.
+#### 1. Maxmize the revenue of looking at promoting the app on the above list more during the month ahead
+<img width="1395" alt="image" src="https://user-images.githubusercontent.com/115063137/218927614-c695bdbb-5805-4d72-8aef-78e80775f8b4.png">
+<img width="1397" alt="image" src="https://user-images.githubusercontent.com/115063137/218927676-cfb919c6-e031-4609-b734-bb76648c4797.png">
+<img width="1383" alt="image" src="https://user-images.githubusercontent.com/115063137/218927722-d34818c9-170e-48ec-8a9e-ff6dcab6af33.png">
+Privy as the top developer of apps that cater to 3 significant categories of merchant engagement on Shopify definitely deserves a seat at the table with Shopify, its host, and with greater partnership and revenue sharing to develop more apps for its merchants, Shopify can entice its merchants to spend more money on apps which it stands to collect a great deal of revenue both from returned merchants as well as making use of site features to host their merchandise.
 
+#### 2. focus more on the risk area in terms of investing on reducing fraud
+- looking at the reviews, Shopify should acknowledge it needs to work closely with its developers on the apps side to close the potential of scammers coming through and destroying ths trust and safety elements that keep its profitablility and market share growing. As such, by deploying the above mentioned process of generating prescriptive and discreptive analytics of its app reviews by category and identifying the app developers that need to be removed from its site or encouraged to improve it practices and app security and integration, Shopify can reduce customer churn and reduce cost to fraudulent activities.
+- This would in turn reduce merchant complaints, refunds and revenue loss to criminals and customer churn.
+
+####  3. improving Shopify's own apps based on the ratings and feedback provided through the repeated process above.
+Shopify being one of the lowest top developers should focus on improving its technology and investing in partnering and learning from its developer base to grow its own apps capabilities to help its partners and merchants deliver and market merchandise more effectively to help grow its revenue.
+
+
+#### 4. With NLP, the deployment model should be at the end of each month, the executive team needs to review the report provided on the review text search and report as shown in section 5 and 6 above to better understand if the the following has improved:
+ #### a. fraud and scam rates from reviews reported
+ #### b. customer satisfaction has improved
+ #### c. numbers of ratings with 4 has increased through marketing efforts and collaboration between the Shopify team and among developers.
+ 
 
 #### Outline of project
 

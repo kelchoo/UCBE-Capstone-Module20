@@ -1,5 +1,5 @@
 # UCBE-Capstone-Module20
-Capstone Project MOdule 20
+
 ### Capstone Project 20.1: Initial Report and Exploratory Data Analysis (EDA)
 
 ## Project Title: Building an Machine Learning solution on Shopify's App Store in the aim of maximizing revenue, lower cost and reduce customer churn (stimulate and accelerate the Shopify Business Model)

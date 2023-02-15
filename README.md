@@ -206,3 +206,5 @@ Shopify being one of the lowest top developers should focus on improving its tec
 
 
 ##### Contact and Further Information
+#### Thank you to Matilde and Isaac for their invaluable support and feedback in multiple sessions to make this module a success and a very well rounded experience for me in the ML area when completing this Capstone project. Your patience and insights have been great in keeping me at the fore front of understanding the key elements of ML and the ability to apply them in the app store business cases. Stay tuned for more Capstone improvements coming your way on this page in Module 24 !
+#### you can reach me for any further questions via your inputs on this site.

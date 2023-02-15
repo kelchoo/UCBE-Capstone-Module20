@@ -7,7 +7,7 @@
  <img width="672" alt="image" src="https://user-images.githubusercontent.com/115063137/218932224-d15802db-aae9-4dde-8448-6e6437e8e41c.png">
 
 
-Overview: In this module, I perfrom the actual ‘number crunching’ for your capstone project. I spent the time in creating and training models, as well as creating visualizations to make sense of your findings.
+Overview: In this module, I will be showcasing the actual ‘number crunching’ for my capstone project. I spent the time in creating and training models, as well as creating visualizations to make sense of my findings.
 
 - Program learning outcomes addressed this module:
 

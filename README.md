@@ -27,12 +27,45 @@ I will show how I explore my data sources, test a few of the techniques, and com
 
 ## Executive summary
 
-• The research question you intend to answer (one sentence, if possible):
+### The research question you intend to answer (one sentence, if possible):
+#### • As a Shopify Marketing Corporate Executive: 
 
-• As a Shopify Marketing Corporate Executive: how do I get a recommendation of the top apps which I should focus my marketing expenses when using the monthly reports provided (as shown in the data source as extracted from Shopify’s website in the link provided below) based on the various features and attributes of each app currently available on my store at the start of a given month (assuming the files have been provided in the point below from Shopify’s internal database to the marketing team) so I can maximize revenues for each month ? 
+#### What are the strategies based on the top app and categories in my app store should I take to maximize revenue and lower cost?
+
+#### To tackle this question, we need to use various visualizations, models and data preparation and exploration techniques to answer the detailed questions:
+
+#### how do I get a recommendation of the top app which I should focus my marketing expenses when using the monthly reports provided (as shown in the data source as extracted from Shopify’s website in the link provided below) based on the various features and attributes of each app currently available on my store at the start of a given month (assuming the files have been provided in the point below from Shopify’s internal database to the marketing team) so I can maximize revenues for each month ? 
+#### Based on the numerous apps in the app store, how does Shopify lower the costs due to risks posed by apps and bad reviews, to build long term relationships with app developers and users that will help identify areas of improvement and risks to its revenue model due to criminal activities and bad quality apps on its store.
+
+#### Background of the company and its app store business:
+
+#### What is Shopify app and how does it work?
+
+#### Shopify is a commerce platform that allows anyone to set up an online store and sell their products. Merchants can also sell their products in person with Shopify POS. Shopify started over ten years ago when our founder Tobi wanted to sell snowboards with his company at that time called Snowdevil.
+#### Evaluating Shopify Apps, their Reviews, and the Developer -  the keys for Shopify's merchants to succeed:
+
+example of a popular app used by Shopify merchants
+<img width="711" alt="image" src="https://user-images.githubusercontent.com/115063137/219320540-776b9a14-daba-4447-84c8-2570ffbf79e0.png">
+The purchase of the app begins with clicking on the Get Started button, and the login page to Shopify begins your process to buy the app
+<img width="508" alt="image" src="https://user-images.githubusercontent.com/115063137/219320901-386fc07e-2ed9-4312-b760-d9fb1e1ce3ff.png">
+
+#### One of the secrets to creating a successful Shopify storefront is to utilize apps, add-on programs that provide additional functionality to Shopify sites. With the Shopify App Store, site owners can customize how an online store runs and how customers and users interact with it.
+
+#### What Does Shopify Charge App Developers?
+#### Last updated on October 1, 2022 @ 10:33 pm (source: https://www.websitebuilderinsider.com/what-does-shopify-charge-app-developers/ )
+
+#### As the world’s leading ecommerce platform, Shopify offers a lot of opportunities for app developers.Shopify has an App Store with over 2,000 apps that can be used to power businesses of all sizes. While the platform is free to use, there are certain fees that app developers need to be aware of.
+#### For example, if an app costs $10, Shopify would take $2. This is in line with other app stores, such as the Apple App Store and Google Play Store.
+
+#### The most important fee for app developers is the Shopify commission. When an app is sold on the Shopify App Store, Shopify takes a 20% cut of the sale.
+
+#### In addition to the commission, Shopify also charges a transaction fee on all apps. This fee is 2% of the total sale price and is used to cover the costs of processing payments. For example, if an app costs $10 and is sold through the Shopify App Store, the developer would owe Shopify $0.20 in transaction fees.
+
+#### Finally, Shopify also charges a hosting fee for apps that use its hosting services. This fee is $0.50 per 1 MB of data per month and is used to cover the costs of hosting and maintaining apps on Shopify’s servers. For example, if an app uses 2 MB of data per month, the developer would owe Shopify $1 per month in hosting fees.
 
 
-The above data sources contains the following key attributes about the apps currently offered on Shopify website for its merchants to download, purchase and use for various purposes that include increasing sales, simplify processes for completing the sales and invoicing processes or even promoting its website and measure revenue and forecasts inventory and sales growth.
+
+The below data sources contains the following key attributes about the apps currently offered on Shopify website for its merchants to download, purchase and use for various purposes that include increasing sales, simplify processes for completing the sales and invoicing processes or even promoting its website and measure revenue and forecasts inventory and sales growth.
 
 Data includes:  App Counts, App Store review, pricing hints, descriptions, review counts, ratings, the various pricing plans offered for app developers
 
@@ -178,11 +211,16 @@ With Vectorization, chi square and SentimentAnalyzer text search tools we can tr
 
 ## Conclusion
 With the top apps and developers identified to drive the potential revenues and stickiness of the ego systems of apps, the company can now repeat this process at the end of each month to do the following:
-#### 1. Maxmize the revenue of looking at promoting the app on the above list more during the month ahead
+#### 1. Maximize the revenue of looking at promoting the app on the above list more during the month ahead starting with the top app performer in the most categories. 
 <img width="1395" alt="image" src="https://user-images.githubusercontent.com/115063137/218927614-c695bdbb-5805-4d72-8aef-78e80775f8b4.png">
 <img width="1397" alt="image" src="https://user-images.githubusercontent.com/115063137/218927676-cfb919c6-e031-4609-b734-bb76648c4797.png">
 <img width="1383" alt="image" src="https://user-images.githubusercontent.com/115063137/218927722-d34818c9-170e-48ec-8a9e-ff6dcab6af33.png">
 Privy as the top developer of apps that cater to 3 significant categories of merchant engagement on Shopify definitely deserves a seat at the table with Shopify, its host, and with greater partnership and revenue sharing to develop more apps for its merchants, Shopify can entice its merchants to spend more money on apps which it stands to collect a great deal of revenue both from returned merchants as well as making use of site features to host their merchandise.
+The Privy app and its Shopify app store download page which include reviews and pricing info, from the above analysis demonstrates and confirms that our analysis is accurate in terms of how this app and developer has made significant contributions based on its popularity to Shopify's revenues on a monthly basis and its relationship has lasted more than 7 years which is worth noting that we can use this app as an example of how we can improve the other apps and developers' approach to app development and customer relationship building.
+https://apps.shopify.com/privy?search_id=ae99b6ac-3774-4887-958d-d7c5f05548d1&surface_detail=Privy&surface_inter_position=1&surface_intra_position=1&surface_type=search
+
+<img width="1167" alt="image" src="https://user-images.githubusercontent.com/115063137/219322130-13a0db70-e8bb-43ca-8095-83127fb96b89.png">
+<img width="1153" alt="image" src="https://user-images.githubusercontent.com/115063137/219322467-b3dca213-cd28-47cd-a209-40608e398d45.png">
 
 #### 2. focus more on the risk area in terms of investing on reducing fraud
 - looking at the reviews, Shopify should acknowledge it needs to work closely with its developers on the apps side to close the potential of scammers coming through and destroying ths trust and safety elements that keep its profitablility and market share growing. As such, by deploying the above mentioned process of generating prescriptive and discreptive analytics of its app reviews by category and identifying the app developers that need to be removed from its site or encouraged to improve it practices and app security and integration, Shopify can reduce customer churn and reduce cost to fraudulent activities.

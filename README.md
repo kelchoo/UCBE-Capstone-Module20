@@ -155,13 +155,15 @@ The top categories as shown here above confirm the pricing structure that works 
 Over time, such behaviors of the developers, app users and Shopify teams help solidify the app store ecosystem much like Andriod and iOS app stores.
 
 <img width="1584" alt="image" src="https://user-images.githubusercontent.com/115063137/218898115-b1592de7-cc51-44a8-9047-9569093c2372.png">
+#### Note: From the chart above, majority of the apps have a rating of 4 and above. But how can Shopify help bring the rest of these ratings up from a 3 to a 4 ?
 
+#### This chart uncovers the possibility of eliminating all the apps with rating of 0 and 1s to make sure quality apps dominate the landscaoe and therefore provide cost savings of not hosting apps that are not productive or contributing to the revenues at Shopify.
 <img width="1559" alt="image" src="https://user-images.githubusercontent.com/115063137/218898183-0d4e5a8e-4cf4-49ea-a58f-f86625786c39.png">
 <img width="1332" alt="image" src="https://user-images.githubusercontent.com/115063137/218898221-3d30817d-a7e6-4e68-9937-80577f050b1e.png">
 <img width="1560" alt="image" src="https://user-images.githubusercontent.com/115063137/218898301-04d2c9b9-af8d-4415-83ad-b27989e175ec.png">
 
 <img width="1351" alt="image" src="https://user-images.githubusercontent.com/115063137/218898396-d4a0c0f3-1f65-43a5-bea5-86f9ebd83675.png">
-Correlation helps build the confidence and understanding that the user rating for using the app is a great feedback loop for the developer and for Spotify to feel te pulse of the merchant using its app and provides good understanding through the words used in the review which we will cover next in our models and clustering techniques used.
+Correlation helps build the confidence and understanding that the user rating for using the app is a great feedback loop for the developer and for Shopify to feel the pulse of the merchants using its app and provides good understanding through the words used in the review which we will cover next in our models and clustering techniques used.
 
 ### Step 5: Understand the task and modeling (Modeling and Evaluation)
 Business Objective of the task:
